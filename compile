@@ -1,3 +1,5 @@
+g++ hello_triangle.cpp ./glad/src/glad.c -I ./glad/include/ -lglfw -lGL -ldl
+
 g++ hello_triangle_indexed.cpp ./glad/src/glad.c -I ./glad/include/ -lglfw -lGL -ldl
 
 #define STB_IMAGE_IMPLEMENTATION
